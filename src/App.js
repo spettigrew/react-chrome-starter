@@ -1,6 +1,6 @@
 import React from 'react';
-import createTodoForm from './Todos/createTodoForm'
-import useTodos from '../hooks/useTodos'
+import CreateTodoForm from './components/createTodoForm'
+import useTodos from './hooks/useTodos'
 import './App.css'
 
 const App = () => {
@@ -22,7 +22,7 @@ const App = () => {
           </div>
         ))}
     </div>
-    <createTodoForm createNewTodo={addTodo} />
+    <CreateTodoForm createNewTodo={addTodo} />
     </div>
   )
 }

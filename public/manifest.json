@@ -9,5 +9,6 @@
   "permissions": [
     "storage"
   ],
-  "version": "1.0"
+  "version": "1.0",
+  "content_security_policy": "script-src 'self' '<your-sha>'; object-src 'self'"
 }

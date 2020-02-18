@@ -27,9 +27,9 @@ const setTodoCompleted = (id, completed) => {
     updateTodos(newTodos);
 };
 
-const addTodo = (label) => {
-    const newTodo = { label, completed: false, id: uuid() }; //uuid = update unique id
-    updateTodos([...todos, newTodo]);
+const addTodo = label => {
+    const newTodo = { label, completed: false, id: uuid }; //uuid = update unique id
+    updateTodos([...todos, newTodo])
 };
 
     return [todos, addTodo, setTodoCompleted]

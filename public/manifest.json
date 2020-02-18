@@ -10,5 +10,5 @@
     "storage"
   ],
   "version": "1.0",
-  "content_security_policy": "script-src 'self' '<your-sha>'; object-src 'self'"
+  "content_security_policy": "script-src 'self' 'sha-256'; object-src 'self'"
 }

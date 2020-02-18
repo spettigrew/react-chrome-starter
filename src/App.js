@@ -9,7 +9,7 @@ const App = () => {
   return (
     <div className="App">
       <div className="todo-container">
-        <h2>Your Todos List</h2>
+        <h2>Your Todo List</h2>
         <hr />
         {todos.map(todo => (
           <div className="todo">

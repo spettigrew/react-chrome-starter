@@ -1,6 +1,6 @@
-import React from 'react'
+import React, { useState } from 'react'
 
-const createTodoForm = ({ createNewTodo }) => {
+const CreateTodoForm = ({ createNewTodo }) => {
     const [label, setLabel] = React.useState('')
 
     return (
@@ -13,4 +13,4 @@ const createTodoForm = ({ createNewTodo }) => {
     )
 }
 
-export default createTodoForm;
+export default CreateTodoForm;
